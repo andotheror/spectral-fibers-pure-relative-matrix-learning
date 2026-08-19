@@ -4,3 +4,6 @@
 *.blg
 *.out
 *.synctex.gz
+
+fancyhdr.sty
+natbib.sty
