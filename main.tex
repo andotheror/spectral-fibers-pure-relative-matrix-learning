@@ -27,8 +27,8 @@
 \newcommand{\wtO}{\widetilde O}
 \newcommand{\1}{\mathbf 1}
 
-\title{Spectral Fibers for Pure-Relative Matrix Learning and Hessian Correction}
-\author{\textbf{Pahan Dewasurendra} \\ Johns Hopkins University}
+\title{\centering Spectral Fibers for Pure-Relative Matrix Learning and Hessian Correction}
+\author{\makebox[\linewidth][c]{\begin{tabular}{c@{\hspace{3.5em}}c}\textbf{Pahan Dewasurendra} & \textbf{Nuwan Dewasurendra}\\ Johns Hopkins University & MiraCosta College\end{tabular}}}
 
 \hypersetup{pdftitle={Spectral Fibers for Pure-Relative Matrix Learning and Hessian Correction},pdfauthor={Pahan Dewasurendra},pdfkeywords={spectral, fibers, pure-relative, matrix, learning, hessian, correction, large, curvature},pdfsubject={preprint}}
 \begin{document}
@@ -360,7 +360,7 @@ For the downstream diagnostic, we clip the whitened estimate at $10^{-3}$ and us
 \label{sec:discussion}
 
 \paragraph{Matrix probing and structured queries.}
-Classical matrix probing solves a least-squares system whose columns are random products with prescribed basis matrices \citep{chiu2012probing}.  Its scientific applications include wave-Hessian and elliptic preconditioning \citep{demanet2012wave}.  The theory depends on dictionary Gram conditioning and high numerical rank of each basis matrix.  Our unprojected baseline is this estimator.  Spectral fibers remove both assumptions and give a best-in-family pure-relative guarantee.
+Classical matrix probing solves a least-squares system whose columns are random products with prescribed basis matrices \citep{chiu2012probing}.  Its scientific applications include wave-Hessian and elliptic preconditioning \citep{chiu2012probing,demanet2012wave}.  The theory depends on dictionary Gram conditioning and high numerical rank of each basis matrix.  Our unprojected baseline is this estimator.  Spectral fibers remove both assumptions and give a best-in-family pure-relative guarantee.
 
 \citet{amsel2026query} initiate the recent worst-case theory for arbitrary matrix families and provide the direct open problem resolved here.  For fixed sparsity, \citet{amsel2026fixed} prove the row-sparsity law used by our lower bound, while \citet{musco2026instance} give a complementary degeneracy-peeling characterization and explicitly leave a parameter for general linear families open.  Structure-specific methods cover Toeplitz and tridiagonal recovery \citep{halikias2024structured,otto2023generic}, HODLR and HSS approximation \citep{chen2024hodlr,amsel2025hss}, adaptive low rank \citep{smith2026adaptive}, and butterfly factorization \citep{persson2026butterfly}.  These nonlinear classes use additional algebraic structure and do not imply the arbitrary-linear-family theorem.  The recent transpose-free lower bounds explain why two-sided access matters in the general nonsymmetric model \citep{halikias2026transpose}.  Scalar bilinear queries are different: Khatri--Rao sketches use $O(q)$ for constant-factor approximation \citep{camano2025structured}.
 
