@@ -44,10 +44,8 @@ matrix-vector products, matrix probing, structured matrix approximation, relativ
 
 ## Files
 
-- `main.pdf`
-- `main.tex`
-- `references.bib`
-- `deep_hessian_study.pdf` figure
-- `iclr2027_conference.sty`, `iclr2027_conference.bst`, `natbib.sty`, `fancyhdr.sty`
-- `supplement.zip` scripts, seeds, experiment, figure generator, and raw summaries reproducing every reported number
-- `main.pdf.ots`, `README.md.ots`, `supplement.zip.ots` OpenTimestamps priority proofs
+- `main_old_2026-08-06.pdf`, the paper as first published, with its OpenTimestamps proof `main_old_2026-08-06.pdf.ots`.
+- `main.pdf`, the current version.
+- `supplement_old_2026-08-06.zip`, the supplement as first published, with its OpenTimestamps proof `supplement_old_2026-08-06.zip.ots`.
+- source: `iclr2027_conference.bst`, `iclr2027_conference.sty`, `main.tex`, `references.bib`.
+- also: `deep_hessian_study.pdf`, `main.bbl`.
